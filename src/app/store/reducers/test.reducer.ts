@@ -31,6 +31,7 @@ export function reducer(
       }
     case Actions.TESTADD:
       {
+        //console.log(action)
         return {
           ...state,
           loaded: true,
